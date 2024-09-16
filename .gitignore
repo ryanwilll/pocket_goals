@@ -1,0 +1,29 @@
+# Ignore arquivos de log
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignore a pasta node_modules globalmente
+/node_modules/
+
+# Exceto node_modules dentro das pastas web/ e server/
+web/node_modules/
+server/node_modules/
+
+# Ignore pastas e arquivos específicos
+dist
+dist-ssr
+*.local
+
+# Diretórios e arquivos de editor
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
